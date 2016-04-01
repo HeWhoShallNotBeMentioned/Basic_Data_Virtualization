@@ -5,5 +5,7 @@
     <title></title>
   </head>
   <body>
+    <div id="chart" style="width:600px;height:300px"></div>
+    <script src='js/flotr2.mn.js'></script>
   </body>
 </html>
