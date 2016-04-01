@@ -6,6 +6,10 @@
   </head>
   <body>
     <div id="chart" style="width:600px;height:300px"></div>
-    <script src='js/flotr2.mn.js'></script>
+    <script src='js/flotr2.mn.js'> </script>
+    <script>
+      var wins = [[[2006,13], [2007,11], [2008,15], [2009,15], [2010,18], [2011,21], [2012, 28], [2013,23], [2014,27], [2015,24]]];
+
+    </script>
   </body>
 </html>
