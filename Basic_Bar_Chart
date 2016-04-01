@@ -15,9 +15,14 @@
 
       Flotr.draw(
         document.getElementById("chart"), wins, {
+          title: "Detroit Tigers Wins",
+          colors: ["#ff6600"],
           bars: {
             show: true,
-            barWidth: 0.5
+            barWidth: 0.5,
+            shadowSize: 0,
+            fillOpacity: 1,
+            lineWidth: 0
           },
           yaxis: {
             min: 0,
@@ -25,6 +30,10 @@
           },
           xaxis: {
             ticks: years
+          },
+          grid:{
+            horizontalLines: false,
+            verticalLines: false
           }
         }
       );
