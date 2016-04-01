@@ -6,7 +6,7 @@
   </head>
   <body>
     <div id="chart" style="width:800px;height:400px;"></div>
-    <script src='js/flotr2.min.js'> </script>
+    <script type="text/javascript" src="js/flotr2.js"> </script>
     <script>
 
     window.onload = function () {
